@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #363636;
+	color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+	color: #cc7d97;
+
+}
+
+nav ul {
+    float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav ul li a:hover {
+	color: #cc527A;
+}
+
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+    margin-bottom: 120px;
+
+}
+
+.container{
+    width:80% ;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+
+   
+}
+
+
+
+.content-section{
+    float: left;
+    width: 55%;
+
+}
+
+.image-section{
+    float: right;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+   
+}
+
+
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+
+}
+
+.content-section .content h3{
+    margin-top:20px ;
+    color:#5d5d5d;
+    font-size: 18px;
+
+}
+
+.content-section .content p{
+    margin-top: 10px ;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height:1.5 ;
+}
+
+.content-section .content .button{
+margin: 30px;
+
+}
+
+.content-section .content .button a{
+    background-color: #3d3d3d;
+    padding:12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+
+}
+
+.content-section .content .button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#a52a2a ;
+    color: #fff;
+}
+
+.content-section .social{
+    margin-top: 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-section .social i{
+    color: #a5a5a5;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.content-section .social i:hover{
+    color: black ;
+}
+
+
+footer {
+	background-color: #363636;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+  
+
+}
+
+footer section:hover{
+	color: #cc527A;
+}
+
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    
+    }
+    
+    .image-section{
+    float: none;
+    width: 100%;
+    }
+
+    .image-section img{
+        display: block;
+        margin: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    .content-section .title{
+    text-align: center;
+    font-size: 19px;
+    }
+    .content-section .content .button{
+    text-align: center;
+    }
+
+    .content-section .content .button a{
+    padding: 9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+
+    }
+
+    .container p{
+     padding-bottom: 30px;
+}
+}

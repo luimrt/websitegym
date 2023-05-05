@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Member</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="join.css">
+    <script src="join.js" defer></script>
+    <style>
+      h1{
+        text-transform: uppercase;
+      }
+    </style>
+</head>
+<body>
+    <header>
+     <h1>impact sports club</h1>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="classes.html">Programs</a></li>
+              <li><a href="part3.html">Trainers</a></li>
+              <li><a href="#">Become a memeber</a></li>
+          </ul>
+      </nav>
+  </header>
+  <h1>Join us today</h1>
+  <div class="container">
+      <form class="formInput"name="membership">
+            <div class="name">
+              <label for="firstName"></label>
+              <input type="text" pattern="[a-zA-Z]+" title="Please enter only letters" placeholder="First Name" name="customer" id="name_input">&nbsp;&nbsp;&nbsp;           
+              <label for="lastName"></label>
+              <input type="text" pattern="[a-zA-Z]+" title="Please enter only letters" placeholder="Last Name" name="lastName" id="last_input">&nbsp;&nbsp;&nbsp;           
+
+
+            </div>
+            <div class="email">
+              <label for="email"></label>
+              <input type="email" placeholder="My e-mail is" name="email" id="email_tele_input">
+            </div>
+              <div class="telephone">
+                <label for="name"></label>
+                <input type="text" placeholder="My number is" name="telephone" id="email_tele_input" >
+              </div>
+              <div class="address">
+                <label for="address"></label>
+                <input type="text" placeholder="Address" name="address" id="address_input" >
+              </div>
+              <div class="city">
+                <label for="city"></label>
+                <input type="text" placeholder="City" name="city"  name="city" id="city_input">
+              </div>
+              <div class="zipcode">
+                <label for="zipcode"></label>
+                <input type="text" placeholder="Zipcode" name="zipcode" name="zipcode" id="zipcode_input">
+              </div>
+              <div class="subject">
+                <label for="subject"></label>
+                <select name="subject" id="subject_input" >
+                  <option disabled hidden selected> Subject line</option>
+                  <option>Join</option>
+                  <option>Question</option>
+                  <option>Classes</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="message">
+                <label for="message"></label>
+                <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5"></textarea>
+              </div>
+              <div class="submit">
+                <input type="submit" value="Send Message" id="form_button" onclick="doSubmit()" >
+              </div>
+              <div class="submit">
+                <input type="submit" value="Clear " id="form_button" onclick="doClear()">
+              </div>
+      </form>
+    </div>
+    <footer>
+      <section>
+          <h2>Contact Us</h2>
+          <p>Phone: 555-555-5555</p>
+          <p>Email: info@gym.com</p>
+          <p>Address: 123 Main St. Anytown, USA</p>
+          <a href="das.html">About Us</a>
+      </section>
+      <p>Copyright © Gym Name</p>
+  </footer>   
+
+</body>
+</html>
